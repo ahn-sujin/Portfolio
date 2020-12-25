@@ -163,7 +163,7 @@ button{outline: none;}
     .content .title{font-size: 16px;}
     .content .title::before{width:60px; margin:0 10px 5px 0;}
 
-    .content .msg{height:45%;}
+    .content .msg{height:52%;}
     .content .msg .btn_wrap .name{font-size:30px;}
     .content .msg .summury .site{font-size:18px;}
     
@@ -307,7 +307,7 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #haagendazs .pic .tablet_m{display: none;}
-    #haagendazs .pic .mobile_m{top:18%; right:21%; width:170px;  transform: translateY(-100px);}
+    #haagendazs .pic .mobile_m{top:9%; right:29%; width:130px;  transform: translateY(-100px);}
     #haagendazs.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
 
 }
@@ -338,7 +338,7 @@ button{outline: none;}
 }
 
 @media screen and (max-width:480px){
-    #subway .pic .desktop{top:75%; width:380px;}
+    #subway .pic .desktop{top:53%; width:348px;}
 }
 
 /*-------naver---------------------------------------------------------*/
@@ -385,7 +385,7 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #naver .pic .tablet_m{display: none;}
-    #naver .pic .mobile_m{top:0%; right:19%; width:170px;  transform: translateY(-100px);}
+    #naver .pic .mobile_m{top:-15%; right:26%; width:140px;  transform: translateY(-100px);}
     #naver.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
 }
 
@@ -535,33 +535,33 @@ button{outline: none;}
 }
 
 @media screen and (max-width:480px){
-    #about .intro_text_eng{font-size:16px; margin:10px 0 5px ; }
-    #about .intro_text_kor{font-size:16px; line-height: 24px;}
+    #about .intro_text_eng{font-size:14px; margin:10px 0 5px ; }
+    #about .intro_text_kor{font-size:12px; line-height: 24px;}
 
     #about .about_wrap{padding:20px 20px;}
 
-    #about .about_wrap .about_pic{height:15%;}
-    #about .about_wrap .about_pic img{width:35%; }
+    #about .about_wrap .about_pic{display: none;}
+    
 
-    #about .about_wrap .about_msg>div .sub_title{font-size:16px; line-height:20px;}
+    #about .about_wrap .about_msg>div .sub_title{font-size:16px; margin-bottom: 10px;}
 
     #about .about_wrap .about_msg .profile .box{float:left; width:48.5%; margin-right: 3%; margin-bottom:15px;}
     #about .about_wrap .about_msg .profile .box:nth-of-type(2n){margin-right:0;}
 
-    #about .about_wrap .about_msg .edu{width:100%; top:20%; left:0;}
+    #about .about_wrap .about_msg .edu{width:100%; top:25%; left:0;}
     #about .about_wrap .about_msg .edu .box{float:left; width:48.5%; margin-right: 3%; margin-bottom:15px;}
     #about .about_wrap .about_msg .edu .box:nth-of-type(2n){margin-right:0;}
 
-    #about .about_wrap .about_msg .license{top:53%;}
+    #about .about_wrap .about_msg .license{top:67%;}
     #about .about_wrap .about_msg .license .box p{font-size:12px; margin-right:5px; display: inline-block; }
     #about .about_wrap .about_msg .license .box p:last-of-type{margin-right:0;}
 
-    #about .about_wrap .about_msg .skill{top:64%;}
-    #about .about_wrap .about_msg .skill .box{float:left; width:135px;}
-    #about.on .about_wrap .about_msg .skill .code_h .grade{width:105px; height:15px;}
-    #about.on .about_wrap .about_msg .skill .photo .grade{width:95px; height:15px;}
-    #about.on .about_wrap .about_msg .skill .code_j .grade{width:85px; height:15px;}
-    #about.on .about_wrap .about_msg .skill .illu .grade{width:85px; height:15px;}
+    #about .about_wrap .about_msg .skill{top:80%;}
+    #about .about_wrap .about_msg .skill .box{float:left; width:135px; margin-bottom:3%;}
+    #about.on .about_wrap .about_msg .skill .code_h .grade{width:105px; height:13px;}
+    #about.on .about_wrap .about_msg .skill .photo .grade{width:95px; height:13px;}
+    #about.on .about_wrap .about_msg .skill .code_j .grade{width:85px; height:13px;}
+    #about.on .about_wrap .about_msg .skill .illu .grade{width:85px; height:13px;}
 
 
     
