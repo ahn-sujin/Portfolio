@@ -222,6 +222,7 @@ button{outline: none;}
 @media screen and (max-width:1200px){
     svg{width:600px; height:80px;}
     #intro .intro_msg .job{font-size:30px;}
+    #intro{background-position: 18% 0;}
 }
 
 @media screen and (max-width:980px){
@@ -230,6 +231,7 @@ button{outline: none;}
     #intro .intro_msg .greet{font-size:16px;}
     #intro .intro_msg .name{font-size:16px;}
     #intro .intro_msg .text{font-size:16px;}
+    #intro{background-position: 22% 0;}
 }
 @media screen and (max-width:768px){
     svg{width:450px; height:60px;}
