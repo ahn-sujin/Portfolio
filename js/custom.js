@@ -81,7 +81,7 @@ $(function(){
 
         $('section').each(function(num){
             if(scroll >= sec_pos[num] +base_line && scroll < sec_pos[num+1]){
-                $('section').removeClass('on').eq(num).addClass('on');
+                $('section').eq(num).addClass('on');
                 $('#gnb>li').removeClass('on').eq(num).addClass('on');
                 $('.pagenation').children('a').removeClass('on').eq(num).addClass('on');
 
@@ -94,7 +94,7 @@ $(function(){
     $(window).on('resize',function(){
         win_w = $(this).width();
 
-        if(win_w >= 980){
+        if(win_w >= 1200){
             mouse_wheel_scroll();
         }else{
             $(window).off('mousewheel DOMMouseScroll');
