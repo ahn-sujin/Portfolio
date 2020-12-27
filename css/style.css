@@ -577,6 +577,7 @@ button{outline: none;}
 #contact.on .contact_msg h3{opacity: 1;transition: 0.5s 0.2s;}
 #contact.on .contact_msg p{opacity: 1; transition: 0.5s 0.2s;}
 
+#contact .resolution{position: absolute; left:50%; bottom:0; transform: translate(-50%,-50%);  font-size:14px; font-weight: bold; }
 #contact .email{position: absolute; bottom:0; right:0; font-size:14px; font-weight: 300; }
 
 @media screen and (max-width:1200px){
@@ -586,6 +587,7 @@ button{outline: none;}
 @media screen and (max-width:980px){
     #contact .contact_msg h3{font-size:50px;}
     #contact .contact_msg p{font-size:16px;}
+    #contact .resolution{display: none;}
 }
 
 @media screen and (max-width:768px){
