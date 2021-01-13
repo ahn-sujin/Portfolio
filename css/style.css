@@ -389,6 +389,39 @@ button{outline: none;}
     #naver.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
 }
 
+/*-------admin---------------------------------------------------------*/
+#admin{background: url(../img/admin_bg.jpg) no-repeat center; background-size: cover;}
+#admin .pic .desktop_01{position: absolute; top:0%; left:0%; transform: translateX(-100px); width:840px; opacity: 0; z-index: 2;}
+#admin .pic .desktop_02{position: absolute; top:12%; right:9%; transform: translateX(100px); width:650px; opacity: 0;}
+#admin .pic img{width:100%;}
+
+#admin.on .pic .desktop_01{opacity: 1; transform: translateX(0); transition: 0.5s 0s;}
+#admin.on .pic .desktop_02{opacity: 1; transform: translateX(0); transition: 0.5s 0.3s;}
+
+@media screen and (max-width:1200px){
+    #admin .pic .desktop_01{top:14%; left:0%; width:700px;}
+    #admin .pic .desktop_02{top:29%; right:5%;  width:500px;}
+}
+
+@media screen and (max-width:980px){
+    #admin .pic .desktop_01{top:33%; left:0%; width:550px;}
+    #admin .pic .desktop_02{top:47%; right:1%;  width:400px;}
+}
+
+@media screen and (max-width:768px){
+    #admin .pic .desktop_01{display: none;}
+    #admin .pic .desktop_02{top:30%; right:5%;  width:540px; transform: translate(0,-100px); }
+    #admin.on .pic .desktop_02{transform: translate(0,0);}
+}
+
+@media screen and (max-width:640px){
+    #admin .pic .desktop_02{top:42%; right:1%;  width:430px; }
+}
+
+@media screen and (max-width:480px){
+    #admin .pic .desktop_02{top:42%; right:0%;  width:330px; }
+}
+
 
 /*-------about---------------------------------------------------------*/
 #about{background: url(../img/about_bg.jpg) no-repeat center; background-size: cover;}
