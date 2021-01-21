@@ -259,7 +259,7 @@ button{outline: none;}
 
 
 /*-------haagendazs---------------------------------------------------------*/
-#haagendazs{background: url(../img/하겐다즈_bg.jpg) no-repeat center; background-size: cover;}
+#haagendazs{background: url(../img/haggen_bg.jpg) no-repeat center; background-size: cover;}
 
 #haagendazs .pic .desktop{position: absolute; top:0; left:25%; width:525px;}
 #haagendazs .pic .mobile{position: absolute; top:40%; left:10%; width:273px; opacity: 0; transform: translateX(-100px); }
@@ -315,7 +315,7 @@ button{outline: none;}
 
 
 /*-------subway---------------------------------------------------------*/
-#subway{background: url(../img/써브웨이_bg.jpg) no-repeat center; background-size: cover;}
+#subway{background: url(../img/subway_bg.jpg) no-repeat center; background-size: cover;}
 #subway .pic .desktop{position: absolute; top:50%; left:50%; transform: translate(-50%,-100%); width:840px; opacity: 0;}
 #subway .pic img{width:100%;}
 
@@ -342,7 +342,7 @@ button{outline: none;}
 }
 
 /*-------naver---------------------------------------------------------*/
-#naver{background: url(../img/네이버_bg.jpg) no-repeat center; background-size: cover;}
+#naver{background: url(../img/naver_bg.jpg) no-repeat center; background-size: cover;}
 #naver .pic .desktop{position: absolute; top:0; left:0%; width:1100px;}
 #naver .pic .mobile{position: absolute; top:36%; left:18%; width:190px; opacity: 0; transform: translateX(-100px);}
 #naver .pic .labtop{position: absolute; top:35%; right:0%; width:450px; opacity: 0; transform: translateX(100px);}
