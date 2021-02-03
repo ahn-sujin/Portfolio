@@ -61,18 +61,18 @@ $(function(){
         move_page();
     });
 
-    //5. pagenation 생성
-    $('section').each(function(){
-        var page_name = $(this).attr('data-page-name');
-        html_tmp += '<a href="#">'+page_name+'</a>';
-    });
-    $('.pagenation').html(html_tmp);
+    // //5. pagenation 생성
+    // $('section').each(function(){
+    //     var page_name = $(this).attr('data-page-name');
+    //     html_tmp += '<a href="#">'+page_name+'</a>';
+    // });
+    // $('.pagenation').html(html_tmp);
 
-    //6. pagenation 이벤트 연결 
-    $('.pagenation').on('click','a',function(){
-        index = $(this).index();
-        move_page();
-    });
+    // //6. pagenation 이벤트 연결 
+    // $('.pagenation').on('click','a',function(){
+    //     index = $(this).index();
+    //     move_page();
+    // });
 
 
     //7. 스크롤 모션 
@@ -115,11 +115,9 @@ $(function(){
         $('.toggle').addClass('on');
         $('.cancle').addClass('on');
 
-        if(win_w >= 768){
-            $('.header_bg').addClass('on');
-        } else{
-            $('.nav_wrap').addClass('on');
-        }
+        $('.header_bg').addClass('on');
+        $('.nav_wrap').addClass('on');
+
         
     });
 
@@ -129,11 +127,9 @@ $(function(){
         $('.toggle').removeClass('on');
         $('.cancle').removeClass('on');
 
-        if(win_w >= 768){
-            $('.header_bg').removeClass('on');
-        } else{
-            $('.nav_wrap').removeClass('on');
-        }
+        $('.header_bg').removeClass('on');
+        $('.nav_wrap').removeClass('on');
+
 
         
     });
