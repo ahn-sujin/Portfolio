@@ -158,7 +158,7 @@ button{outline: none;}
     .content .title{font-size: 16px;}
     .content .title::before{width:60px; margin:0 10px 5px 0;}
 
-    .content .msg{height:52%;}
+    .content .msg{height:43%;}
     .content .msg .btn_wrap .name{font-size:30px;}
     .content .msg .summury .site{font-size:18px;}
     
@@ -275,6 +275,8 @@ button{outline: none;}
     #interior .pic .desktop{top:10%; left:17%; width:450px;}
     #interior .pic .mobile{top:73%; left:11%; width:200px }
     #interior .pic .labtop{top:68%; right:0%; width:370px; }
+
+    #interior .msg .btn_wrap .name{font-size:30px;}
     
 }
 @media screen and (max-width:768px){
@@ -301,8 +303,10 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #interior .pic .tablet_m{display: none;}
-    #interior .pic .mobile_m{top:9%; right:29%; width:130px;  transform: translateY(-100px);}
+    #interior .pic .mobile_m{top:38%; right:26%; width:150px;  transform: translateY(-100px);}
     #interior.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
+
+    #interior .msg .btn_wrap .name{font-size:28px;}
 
 }
 
@@ -355,7 +359,7 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #haagendazs .pic .tablet_m{display: none;}
-    #haagendazs .pic .mobile_m{top:9%; right:29%; width:130px;  transform: translateY(-100px);}
+    #haagendazs .pic .mobile_m{top:38%; right:26%; width:130px;  transform: translateY(-100px);}
     #haagendazs.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
 
 }
@@ -386,7 +390,7 @@ button{outline: none;}
 }
 
 @media screen and (max-width:480px){
-    #subway .pic .desktop{top:53%; width:348px;}
+    #subway .pic .desktop{top:66%; width:348px;}
 }
 
 /*-------naver---------------------------------------------------------*/
@@ -433,7 +437,7 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #naver .pic .tablet_m{display: none;}
-    #naver .pic .mobile_m{top:-15%; right:26%; width:140px;  transform: translateY(-100px);}
+    #naver .pic .mobile_m{top:17%; right:24%; width:140px;  transform: translateY(-100px);}
     #naver.on .pic .mobile_m{opacity: 1; transform: translateY(0); transition: 0.5s 0s;}
 }
 
