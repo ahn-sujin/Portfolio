@@ -277,9 +277,9 @@ button{outline: none;}
 @media screen and (max-width:1200px){
     #interior .pic .desktop{top:16%; left:23%; width:450px;}
     #interior .pic .mobile{top:58%; left:11%; width:200px }
-    #interior .pic .labtop{top:49%; right:4%; width:410px; }
+    #interior .pic .labtop{top:49%; right:4%; width:410px;}
 
-    #interior .msg .btn_wrap .name{font-size:40px; }
+    #interior .msg .btn_wrap .name{font-size:40px;}
 }
 
 @media screen and (max-width:980px){
@@ -392,29 +392,56 @@ button{outline: none;}
 
 /*-------subway---------------------------------------------------------*/
 #subway{background: url(../img/subway_bg.jpg) no-repeat center; background-size: cover;}
-#subway .pic .desktop{position: absolute; top:50%; left:50%; transform: translate(-50%,-100%); width:840px; opacity: 0;}
+#subway .pic .desktop{position: absolute; top:0; left:25%; width:525px;}
+#subway .pic .mobile{position: absolute; top:40%; left:10%; width:273px; opacity: 0; transform: translateX(-100px); }
+#subway .pic .labtop{position: absolute; top:34%; right:5%; width:530px; opacity: 0; transform: translateX(100px); }
+#subway .pic .tablet_m{display: none;}
+#subway .pic .mobile_m{display: none;}
 #subway .pic img{width:100%;}
 
-#subway.on .pic .desktop{opacity: 1; transform: translate(-50%,-50%); transition: 0.5s;}
+#subway.on .pic .mobile{opacity: 1; transform: translateX(0); transition: 0.5s 0s;}
+#subway.on .pic .labtop{opacity: 1; transform: translateX(0); transition: 0.5s 0.3s;}
 
 @media screen and (max-width:1200px){
-    #subway .pic .desktop{top:57%; width:740px;}
+    #subway .pic .desktop{top:16%; left:23%; width:450px;}
+    #subway .pic .mobile{top:58%; left:11%; width:200px }
+    #subway .pic .labtop{top:49%; right:4%; width:410px;}
 }
 
 @media screen and (max-width:980px){
-    #subway .pic .desktop{top:75%; width:680px;}
+    #subway .pic .desktop{top:10%; left:17%; width:450px;}
+    #subway .pic .mobile{top:73%; left:11%; width:200px }
+    #subway .pic .labtop{top:68%; right:0%; width:370px; }
 }
 
 @media screen and (max-width:768px){
-    #subway .pic .desktop{top:67%; width:580px;}
+    #subway .pic .desktop,
+    #subway .pic .mobile,
+    #subway .pic .labtop{display: none;}
+    #subway .pic .tablet_m{
+        display: block; 
+        position: absolute; top:20%; left:25%; width:250px; opacity: 0; transform: translateX(-100px); 
+    }
+    #subway .pic .mobile_m{
+        display: block;
+        position: absolute; top:46%; right:21%; width:130px; opacity: 0; transform: translateX(100px);
+    }
+    #subway.on .pic .tablet_m{opacity: 1; transform: translateX(0); transition: 0.5s 0s;}
+    #subway.on .pic .mobile_m{opacity: 1; transform: translateX(0); transition: 0.5s 0.3s;}
+
 }
 
 @media screen and (max-width:640px){
-    #subway .pic .desktop{top:75%; width:480px;}
+    #subway .pic .tablet_m{top:25%; left:15%; width:230px;}
+    #subway .pic .mobile_m{top:47%; right:15%; width:120px;}
+
 }
 
 @media screen and (max-width:480px){
-    #subway .pic .desktop{top:66%; width:348px;}
+    #subway .pic {height:55%;}
+    #subway .pic .tablet_m{display: none;}
+    #subway .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:200px; }
+    #subway.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -35%); transition: 0.5s 0s;}
 }
 
 /*-------naver---------------------------------------------------------*/
