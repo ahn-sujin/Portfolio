@@ -61,10 +61,10 @@ button{outline: none;}
 @media screen and (max-width:480px){
     #header .logo span{font-size:20px;}
 
-    #header .header_bg .toggle{width:25px; height:25px;margin-top:10px; }
-    #header .header_bg .toggle>a,
-    #header .header_bg .cancle>a{font-size:14px;line-height: 25px;}
-    #header .header_bg .cancle{width:25px; height:25px; margin-top:10px;}
+    #header .toggle{width:25px; height:25px; margin-top:15px; }
+    #header .toggle>a,
+    #header .cancle>a{font-size:14px;line-height: 25px;}
+    #header .cancle{width:25px; height:25px; margin-top:10px;}
 }
 
 /*-------common---------------------------------------------------------*/
@@ -161,17 +161,27 @@ button{outline: none;}
 
 }
 @media screen and (max-width:480px){
+    .content{padding:40px 20px 20px;}
     .content .inner{width:320px;}
-    .content .title{font-size: 16px;}
+    .content .title{font-size: 14px; margin-top:20px;}
     .content .title::before{width:60px; margin:0 10px 5px 0;}
 
     .content .pic{position: relative;} 
 
-    .content .msg{padding:20px;}
+    .content .msg{padding:20px; height:50%;}
     .content .msg .btn_wrap .name{font-size:30px;}
     .content .msg .summury .site{font-size:18px;}
-    
+}
 
+/*----모바일 높이---------*/
+@media screen and (max-height:667px){
+    .content .msg .btn_wrap .name{font-size:28px;}
+    .content .msg .summury .site{font-size:16px; margin-bottom: 15px;}
+    .content .msg .summury>div{margin-bottom: 10px;}
+    .content .msg .summury>div>.category{font-size:14px;}
+    .content .msg .summury>div>.text{font-size:12px;}
+}
+    
 }
 
 /*-------intro---------------------------------------------------------*/
@@ -323,16 +333,42 @@ button{outline: none;}
     #interior .msg .summury{margin-top:20px;}
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px),
+screen and(max-height:812px){
     #interior .pic {height:55%;}
     #interior .pic .tablet_m{display: none;}
-    #interior .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:200px; }
-    #interior.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -35%); transition: 0.5s 0s;}
+    #interior .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:140px; }
+    #interior.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -33%); transition: 0.5s 0s;}
 
-    #interior .msg{height:45%; padding:30px;}
+    #interior .msg{height:51%; padding:30px;}
     #interior .msg .btn_wrap .name{font-size:28px;}
-
 }
+ /*---모바일 높이-------*/
+@media screen and (max-height:763px){
+    #interior .msg{padding:25px 30px;}
+    #interior .msg .btn_wrap .name{font-size:24px;}
+    #interior .msg .summury .site{font-size:16px;}
+    #interior .msg .summury>div>.category{font-size:14px;}
+    #interior .msg .summury>div>.text{font-size:12px;}
+}
+@media screen and (max-height:667px){
+    #interior .pic .mobile_m{width:120px;}
+    #interior.on .pic .mobile_m{transform: translate(-50%, -35%);}
+
+    #interior .msg{height:52%; padding:20px 30px;}
+    #interior .msg .btn_wrap .website{height:35px;}
+    #interior .msg .btn_wrap .website>a{font-size:12px; line-height: 34px;}
+    #interior .msg .btn_wrap .mini_btn{height:35px;}
+    #interior .msg .btn_wrap .mini_btn>a{font-size:12px; line-height: 34px;}
+
+    #interior .msg .btn_wrap .name{font-size:24px;}
+    #interior .msg .summury{margin-top:10px;}
+    #interior .msg .summury .site{font-size:16px;}
+    #interior .msg .summury>div{margin-bottom: 10px;}
+    #interior .msg .summury>div>.category{font-size:14px;}
+    #interior .msg .summury>div>.text{font-size:12px;}
+}
+
 
 /*-------haagendazs---------------------------------------------------------*/
 #haagendazs{background: url(../img/haggen_bg.jpg) no-repeat center; background-size: cover;}
@@ -383,12 +419,15 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #haagendazs .pic .tablet_m{display: none;}
-    #haagendazs .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:160px;}
-    #haagendazs.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -35%); transition: 0.5s 0s;}
+    #haagendazs .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:120px;}
+    #haagendazs.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -36%); transition: 0.5s 0s;}
+}
 
+/*----모바일 높이---------*/
+@media screen and (max-height:667px){
+    #haagendazs .pic .mobile_m{width:100px;}
 }
     
-
 
 /*-------subway---------------------------------------------------------*/
 #subway{background: url(../img/subway_bg.jpg) no-repeat center; background-size: cover;}
@@ -440,9 +479,15 @@ button{outline: none;}
 @media screen and (max-width:480px){
     #subway .pic {height:55%;}
     #subway .pic .tablet_m{display: none;}
-    #subway .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:200px; }
-    #subway.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -35%); transition: 0.5s 0s;}
+    #subway .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:150px; }
+    #subway.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -32%); transition: 0.5s 0s;}
 }
+
+/*----모바일 높이---------*/
+@media screen and (max-height:667px){
+    #subway .pic .mobile_m{width:125px;}
+}
+
 
 /*-------naver---------------------------------------------------------*/
 #naver{background: url(../img/naver_bg.jpg) no-repeat center; background-size: cover;}
@@ -488,8 +533,13 @@ button{outline: none;}
 
 @media screen and (max-width:480px){
     #naver .pic .tablet_m{display: none;}
-    #naver .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-45%, -100%); width:180px;}
-    #naver.on .pic .mobile_m{opacity: 1; transform: translate(-45%, -45%); transition: 0.5s 0s;}
+    #naver .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-45%, -100%); width:135px;}
+    #naver.on .pic .mobile_m{opacity: 1; transform: translate(-45%, -47%); transition: 0.5s 0s;}
+}
+
+/*----모바일 높이---------*/
+@media screen and (max-height:667px){
+    #naver .pic .mobile_m{width:110px;}
 }
 
 /*-------admin---------------------------------------------------------*/
@@ -521,10 +571,16 @@ button{outline: none;}
     #admin .pic .desktop_02{top:42%; right:1%;  width:430px; }
 }
 
-@media screen and (max-width:480px){
-    #admin .pic .desktop_02{top:42%; right:0%;  width:330px; }
+@media screen and (max-width:480px),
+screen and(max-height:812px){
+    #admin .pic .desktop_02{top:42%; right:0%;  width:300px; }
+    #admin.on .pic .desktop_02{transform: translate(0,-24%);}
 }
 
+/*----모바일 높이---------*/
+@media screen and (max-height:667px){
+    #admin .pic .mobile_m{width:290px;}
+}
 
 /*-------about---------------------------------------------------------*/
 #about{background: url(../img/about_bg.jpg) no-repeat center; background-size: cover;}
