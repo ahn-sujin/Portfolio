@@ -443,12 +443,17 @@ screen and(max-height:812px){
     #subway .pic .desktop{top:16%; left:23%; width:450px;}
     #subway .pic .mobile{top:58%; left:11%; width:200px }
     #subway .pic .labtop{top:49%; right:4%; width:410px;}
+
+    #subway .msg .btn_wrap .name{font-size:40px;}
 }
 
 @media screen and (max-width:980px){
     #subway .pic .desktop{top:10%; left:17%; width:450px;}
     #subway .pic .mobile{top:73%; left:11%; width:200px }
     #subway .pic .labtop{top:68%; right:0%; width:370px; }
+
+    #subway .msg{padding:60px 40px;}
+    #subway .msg .btn_wrap .name{font-size:30px; margin-top:5px;}
 }
 
 @media screen and (max-width:768px){
@@ -466,11 +471,20 @@ screen and(max-height:812px){
     #subway.on .pic .tablet_m{opacity: 1; transform: translateX(0); transition: 0.5s 0s;}
     #subway.on .pic .mobile_m{opacity: 1; transform: translateX(0); transition: 0.5s 0.3s;}
 
+    #subway .msg{padding:40px;}
+    #subway .msg .btn_wrap .name{font-size:25px;}
 }
 
 @media screen and (max-width:640px){
     #subway .pic .tablet_m{top:25%; left:15%; width:230px;}
     #subway .pic .mobile_m{top:47%; right:15%; width:120px;}
+
+    #subway .msg{padding:20px 30px;}
+    #subway .msg .btn_wrap .name{margin:0 0 10px 0;}
+    #subway .msg .btn_wrap .website{width:100%; height:40px; margin:0 0 10px 0;}
+    #subway .msg .btn_wrap .mini_btn{width:31.6%; height:40px;}
+
+    #subway .msg .summury{margin-top:20px;}
 
 }
 
@@ -479,11 +493,35 @@ screen and(max-height:812px){
     #subway .pic .tablet_m{display: none;}
     #subway .pic .mobile_m{position: absolute; top:50%; left:50%; transform: translate(-50%, -100%); width:150px; }
     #subway.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -32%); transition: 0.5s 0s;}
+
+    #subway .msg{height:51%; padding:30px;}
+    #subway .msg .btn_wrap .name{font-size:28px;}
 }
 
 /*----모바일 높이---------*/
+@media screen and (max-height:763px){
+    #subway .msg{padding:25px 30px;}
+    #subway .msg .btn_wrap .name{font-size:24px;}
+    #subway .msg .summury .site{font-size:16px;}
+    #subway .msg .summury>div>.category{font-size:14px;}
+    #subway .msg .summury>div>.text{font-size:12px;}
+}
+
 @media screen and (max-height:667px){
     #subway .pic .mobile_m{width:125px;}
+
+    #subway .msg{height:52%; padding:20px 30px;}
+    #subway .msg .btn_wrap .website{height:35px;}
+    #subway .msg .btn_wrap .website>a{font-size:12px; line-height: 34px;}
+    #subway .msg .btn_wrap .mini_btn{height:35px;}
+    #subway .msg .btn_wrap .mini_btn>a{font-size:12px; line-height: 34px;}
+
+    #subway .msg .btn_wrap .name{font-size:24px;}
+    #subway .msg .summury{margin-top:10px;}
+    #subway .msg .summury .site{font-size:16px;}
+    #subway .msg .summury>div{margin-bottom: 10px;}
+    #subway .msg .summury>div>.category{font-size:14px;}
+    #subway .msg .summury>div>.text{font-size:12px;}
 }
 
 
