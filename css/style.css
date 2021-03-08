@@ -172,30 +172,15 @@ button{outline: none;}
     .content .title::before{width:60px; margin:0 10px 5px 0;}
 
     .content .pic{position: relative;} 
+    
 
     .content .msg{padding:20px; height:50%;}
+    .content .msg .btn_wrap .website{margin-bottom:15px;}
     .content .msg .btn_wrap .name{font-size:30px;}
     .content .msg .summury .site{font-size:18px;}
 }
 
 /*----높이---------*/
-@media screen and (max-height:657px){
-    .content{padding:100px 0 50px; }
-    .content .inner{width:980px;}
-
-    .content .msg{padding:30px 40px;}
-    .content .msg .btn_wrap{margin-right:8%;}
-    .content .msg .btn_wrap .name{font-size:35px; margin-bottom:30px;}
-
-    .content .msg .btn_wrap button{height:45px}
-
-    .content .msg .summury .site{font-size:20px; margin:3px 0 30px;}
-    .content .msg .summury>div{margin-bottom: 20px;}
-    .content .msg .summury>div>.category{font-size:16px; font-weight:bold;}
-    .content .msg .summury>div>.category::after{content:''; display: inline-block; width:1px; height:12px; background: #000; margin:0 10px;}
-    .content .msg .summury>div>.text{font-size:14px;}
-}
-
 
 @media screen and (max-height:667px){
     .content .msg .btn_wrap .name{font-size:28px;}
@@ -203,6 +188,24 @@ button{outline: none;}
     .content .msg .summury>div{margin-bottom: 10px;}
     .content .msg .summury>div>.category{font-size:14px;}
     .content .msg .summury>div>.text{font-size:12px;}
+}
+
+@media screen and (max-height:657px){
+    .content{padding:100px 0 50px; }
+    .content .inner{width:980px;}
+
+    .content .msg{height:40%; padding:30px 40px;}
+    .content .msg .btn_wrap{margin-right:8%;}
+    .content .msg .btn_wrap .name{font-size:24px; margin-bottom: 20px;}
+    
+    .content .msg .btn_wrap button{height:35px}
+
+    .content .msg .summury{margin-top:0px;}
+    .content .msg .summury .site{font-size:16px;}
+    .content .msg .summury>div{margin-bottom: 10px;}
+    .content .msg .summury>div>.category{font-size:14px;}
+    .content .msg .summury>div>.text{font-size:12px;}
+
 }
     
 /*-------intro---------------------------------------------------------*/
@@ -295,8 +298,13 @@ button{outline: none;}
 
 /* 높이 */
 @media screen and (max-height:657px){
-    svg{width:600px; height:80px;}
-    #intro .intro_msg .job{font-size:28px;}
+    svg{width:500px; height:80px;}
+    #intro .intro_msg .intro_title_txt{margin: 30px 0;}
+    #intro .intro_msg .job{font-size:24px; margin:30px 0;}
+
+    #intro .mouse a{font-size:14px;}
+    #intro .mouse a span{width:25px; height:45px;}
+    #intro .mouse a span::before{width:5px; height:5px;}
 }
 
 /*-------interior---------------------------------------------------------*/
@@ -372,13 +380,6 @@ screen and(max-height:812px){
     #interior .msg .btn_wrap .name{font-size:28px;}
 }
  /*---높이-------*/
-@media screen and (max-height:657px){
-    #interior .pic .desktop{width:400px;}
-    #interior .pic .mobile{width:200px;}
-    #interior .pic .labtop{width:390px;}
-
-}
-
 @media screen and (max-height:763px){
     #interior .msg{padding:25px 30px;}
     #interior .msg .btn_wrap .name{font-size:24px;}
@@ -402,6 +403,19 @@ screen and(max-height:812px){
     #interior .msg .summury>div{margin-bottom: 10px;}
     #interior .msg .summury>div>.category{font-size:14px;}
     #interior .msg .summury>div>.text{font-size:12px;}
+}
+
+@media screen and (max-height:657px){
+    #interior .msg{height:40%; padding:35px 40px;}
+    #interior .msg .summury{margin-top:0px;}
+    #interior .msg .summury .site{font-size:16px;}
+    #interior .msg .summury>div{margin-bottom: 10px;}
+    #interior .msg .summury>div>.category{font-size:14px;}
+    #interior .msg .summury>div>.text{font-size:12px;}
+
+    #interior .pic .desktop{width:350px;}
+    #interior .pic .mobile{width:180px;}
+    #interior .pic .labtop{width:350px; right:12%;}
 }
 
 
@@ -459,14 +473,14 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:657px){
-    #haagendazs .pic .desktop{width:400px;}
-    #haagendazs .pic .mobile{width:200px;}
-    #haagendazs .pic .labtop{width:390px;}
-}
-
 @media screen and (max-height:667px){
     #haagendazs .pic .mobile_m{width:100px;}
+}
+
+@media screen and (max-height:657px){
+    #haagendazs .pic .desktop{width:340px;}
+    #haagendazs .pic .mobile{width:180px;}
+    #haagendazs .pic .labtop{width:330px; top:37%; right:15%;}
 }
     
 
@@ -542,12 +556,6 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:657px){
-    #subway .pic .desktop{width:450px;}
-    #subway .pic .mobile{width:200px; top:45%;}
-    #subway .pic .labtop{width:350px; top:45%;}
-}
-
 @media screen and (max-height:763px){
     #subway .msg{padding:25px 30px;}
     #subway .msg .btn_wrap .name{font-size:24px;}
@@ -571,6 +579,19 @@ screen and(max-height:812px){
     #subway .msg .summury>div{margin-bottom: 10px;}
     #subway .msg .summury>div>.category{font-size:14px;}
     #subway .msg .summury>div>.text{font-size:12px;}
+}
+
+@media screen and (max-height:657px){
+    #subway .msg{height:40%; padding:35px 40px;}
+    #subway .msg .summury{margin-top:0px;}
+    #subway .msg .summury .site{font-size:16px;}
+    #subway .msg .summury>div{margin-bottom: 10px;}
+    #subway .msg .summury>div>.category{font-size:14px;}
+    #subway .msg .summury>div>.text{font-size:12px;}
+
+    #subway .pic .desktop{width:390px;}
+    #subway .pic .mobile{width:200px; top:40%; left:9%;}
+    #subway .pic .labtop{width:340px; top:39%; right:9%;}
 }
 
 
@@ -623,13 +644,14 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:657px){
-    #naver .pic .desktop{width:810px;}
-    #naver .pic .mobile{top:33%; left:16%; width:140px;}
-    #naver .pic .labtop{top:33%; right:6%; width:330px;}
-}
 @media screen and (max-height:667px){
     #naver .pic .mobile_m{width:110px;}
+}
+
+@media screen and (max-height:657px){
+    #naver .pic .desktop{top:50%; left:43%; transform: translate(-50%,-50%);  width:710px;}
+    #naver .pic .mobile{top:34%; left:21%; width:120px;}
+    #naver .pic .labtop{top:36%; right:12%; width:265px;}
 }
 
 /*-------admin---------------------------------------------------------*/
@@ -668,12 +690,13 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:657px){
-    #admin .pic .desktop_01{width:660px;}
-    #admin .pic .desktop_02{width:520px;}
-}
 @media screen and (max-height:667px){
     #admin .pic .mobile_m{width:290px;}
+}
+
+@media screen and (max-height:657px){
+    #admin .pic .desktop_01{width:520px; left:10%;}
+    #admin .pic .desktop_02{width:420px; right:15%; top:9%;}
 }
 
 /*-------about---------------------------------------------------------*/
