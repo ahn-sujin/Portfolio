@@ -65,7 +65,7 @@ button{outline: none;}
 }
 
 /* 높이 */
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #header .header_bg{width:280px;}
     #header .nav_wrap{right:0%;}
 }
@@ -179,7 +179,8 @@ button{outline: none;}
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+
+@media screen and (max-width:1366px),(max-height:768px){
     .content{padding:100px 0 50px; }
     .content .inner{width:980px;}
 
@@ -294,7 +295,7 @@ button{outline: none;}
 
 
 /* 높이 */
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     svg{width:600px; height:80px;}
     #intro .intro_msg .job{font-size:28px;}
 }
@@ -372,7 +373,7 @@ screen and(max-height:812px){
     #interior .msg .btn_wrap .name{font-size:28px;}
 }
  /*---높이-------*/
-@media screen and (max-height:768px){
+ @media screen and (max-width:1366px),(max-height:768px){
     #interior .pic .desktop{width:400px;}
     #interior .pic .mobile{width:200px;}
     #interior .pic .labtop{width:390px;}
@@ -459,7 +460,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #haagendazs .pic .desktop{width:400px;}
     #haagendazs .pic .mobile{width:200px;}
     #haagendazs .pic .labtop{width:390px;}
@@ -542,7 +543,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #subway .pic .desktop{width:450px;}
     #subway .pic .mobile{width:200px; top:45%;}
     #subway .pic .labtop{width:350px; top:45%;}
@@ -623,7 +624,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #naver .pic .desktop{width:810px;}
     #naver .pic .mobile{top:33%; left:16%; width:140px;}
     #naver .pic .labtop{top:33%; right:6%; width:330px;}
@@ -668,7 +669,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #admin .pic .desktop_01{width:660px;}
     #admin .pic .desktop_02{width:520px;}
 }
@@ -887,7 +888,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-height:768px){
+@media screen and (max-width:1366px),(max-height:768px){
     #contact .contact_msg h3{font-size:80px;}
 }
 
