@@ -64,13 +64,6 @@ button{outline: none;}
     #header .cancle{width:25px; height:25px; margin-top:10px;}
 }
 
-/* 높이 */
-@media screen and (max-width:1366px),(max-height:768px){
-    #header .header_bg{width:280px;}
-    #header .nav_wrap{right:0%;}
-}
-
-
 
 /*-------common---------------------------------------------------------*/
 .content{width:100%; height:100vh; height: calc(var(--vh, 1vh) * 100); padding:100px 0 80px;}
@@ -180,24 +173,6 @@ button{outline: none;}
 
 /*----높이---------*/
 
-@media screen and (max-width:1366px),(max-height:768px){
-    .content{padding:100px 0 50px; }
-    .content .inner{width:980px;}
-
-    .content .msg{padding:30px 40px;}
-    .content .msg .btn_wrap{margin-right:8%;}
-    .content .msg .btn_wrap .name{font-size:35px; margin-bottom:30px;}
-
-    .content .msg .btn_wrap button{height:45px}
-
-    .content .msg .summury .site{font-size:20px; margin:3px 0 30px;}
-    .content .msg .summury>div{margin-bottom: 20px;}
-    .content .msg .summury>div>.category{font-size:16px; font-weight:bold;}
-    .content .msg .summury>div>.category::after{content:''; display: inline-block; width:1px; height:12px; background: #000; margin:0 10px;}
-    .content .msg .summury>div>.text{font-size:14px;}
-}
-
-
 @media screen and (max-height:667px){
     .content .msg .btn_wrap .name{font-size:28px;}
     .content .msg .summury .site{font-size:16px; margin-bottom: 15px;}
@@ -294,11 +269,7 @@ button{outline: none;}
 }
 
 
-/* 높이 */
-@media screen and (max-width:1366px),(max-height:768px){
-    svg{width:600px; height:80px;}
-    #intro .intro_msg .job{font-size:28px;}
-}
+
 
 /*-------interior---------------------------------------------------------*/
 #interior{background: url(../img/interior_bg.jpg) no-repeat center; background-size: cover;}
@@ -373,12 +344,7 @@ screen and(max-height:812px){
     #interior .msg .btn_wrap .name{font-size:28px;}
 }
  /*---높이-------*/
- @media screen and (max-width:1366px),(max-height:768px){
-    #interior .pic .desktop{width:400px;}
-    #interior .pic .mobile{width:200px;}
-    #interior .pic .labtop{width:390px;}
 
-}
 
 @media screen and (max-height:763px){
     #interior .msg{padding:25px 30px;}
@@ -459,12 +425,7 @@ screen and(max-height:812px){
     #haagendazs.on .pic .mobile_m{opacity: 1; transform: translate(-50%, -36%); transition: 0.5s 0s;}
 }
 
-/*----높이---------*/
-@media screen and (max-width:1366px),(max-height:768px){
-    #haagendazs .pic .desktop{width:400px;}
-    #haagendazs .pic .mobile{width:200px;}
-    #haagendazs .pic .labtop{width:390px;}
-}
+
 
 @media screen and (max-height:667px){
     #haagendazs .pic .mobile_m{width:100px;}
@@ -543,11 +504,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-width:1366px),(max-height:768px){
-    #subway .pic .desktop{width:450px;}
-    #subway .pic .mobile{width:200px; top:45%;}
-    #subway .pic .labtop{width:350px; top:45%;}
-}
+
 
 @media screen and (max-height:763px){
     #subway .msg{padding:25px 30px;}
@@ -624,11 +581,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-width:1366px),(max-height:768px){
-    #naver .pic .desktop{width:810px;}
-    #naver .pic .mobile{top:33%; left:16%; width:140px;}
-    #naver .pic .labtop{top:33%; right:6%; width:330px;}
-}
+
 @media screen and (max-height:667px){
     #naver .pic .mobile_m{width:110px;}
 }
@@ -669,10 +622,7 @@ screen and(max-height:812px){
 }
 
 /*----높이---------*/
-@media screen and (max-width:1366px),(max-height:768px){
-    #admin .pic .desktop_01{width:660px;}
-    #admin .pic .desktop_02{width:520px;}
-}
+
 @media screen and (max-height:667px){
     #admin .pic .mobile_m{width:290px;}
 }
@@ -887,9 +837,6 @@ screen and(max-height:812px){
     #contact .contact_msg p{font-size:14px;}
 }
 
-/*----높이---------*/
-@media screen and (max-width:1366px),(max-height:768px){
-    #contact .contact_msg h3{font-size:80px;}
-}
+
 
 
