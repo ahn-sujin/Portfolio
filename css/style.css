@@ -98,12 +98,13 @@ button{outline: none;}
 .content .msg .btn_wrap .mini_btn{width:31%; margin-right:2.5%;}
 .content .msg .btn_wrap .mini_btn:last-of-type{margin-right:0;}
 
-.content .msg .summury{float:left; padding-left:30px;}
+.content .msg .summury{float:left; padding-left:30px; margin-top: -15px;}
 .content .msg .summury .site{font-size:24px; font-weight:bold; margin:10px 0 30px;}
 .content .msg .summury>div{margin-bottom: 20px;}
 .content .msg .summury>div>.category{font-size:16px; font-weight:bold;}
 .content .msg .summury>div>.category::after{content:''; display: inline-block; width:1px; height:12px; background: #000; margin:0 10px;}
 .content .msg .summury>div>.text{font-size:14px;}
+.content .msg .summury .alert{display: block; font-size:13px; font-weight: bold;}
 
 .content.on .msg{opacity: 1; transform: translateY(0);  transition: 0.7s;}
 
@@ -113,7 +114,9 @@ button{outline: none;}
 
     .content .msg{padding:60px 70px;}
     .content .msg .btn_wrap{ width:47%; height:auto; margin-right: 5%; }
-    .content .msg .summury{padding-left:50px;}
+    .content .msg .summury{padding-left:50px; margin-top:0;}
+
+    .content .msg .summury .alert{display: none;}
 
 }
 @media screen and (max-width:980px){
